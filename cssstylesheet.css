@@ -69,3 +69,76 @@ header{
    vertical-align: middle;
    padding-bottom: 6px;
 }
+.search{
+    color: white;
+    height: 100%;
+    background-color: #b96d5a;
+    padding-bottom: 3rem;
+}
+.options{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.options button{
+    color: white;
+    background-color: #E2856E;
+    width: 100%;
+    border: none;
+    padding: 10px;
+}
+.options button:active{
+ 
+    background-color: #ff967c; 
+}
+.nam{
+    background-color:#b96d5a;
+    margin-bottom: 1rem;
+    position: relative;
+    left: 0.8rem;
+    top: 1.5rem;
+    width:fit-content;
+}
+.bar{
+    padding-right: 3rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    border-color: black;
+}
+#srch{
+    margin-right: 0;
+    width: 94%;
+    outline: none;
+    border: none;
+    display: inline;
+}
+#srch:focus{
+    border: solid;
+    border-width: 1px;
+}
+#top{
+    padding-top: 20px;
+}
+.dex{
+    padding: 14px;
+    padding-bottom: 7px;
+    border: solid;
+    border-width: 1px;
+}
+#ct{
+    color: white;
+    padding: 5px;
+    width: auto;
+    background-color: #E2856E;
+    border: none;
+    outline: none;
+    height: 100%;
+}
+#ct:active{
+    background-color: #ff967c; 
+}
+.dex p{
+    margin: 0;
+    padding: 0;
+    font-size: 0.7rem;
+}
